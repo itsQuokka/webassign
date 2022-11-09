@@ -2,7 +2,7 @@ import React from "react";
 
 const QuoteItem = ({ quote, author }) => {
 	return (
-		<blockquote class="text-md pt-2 italic text-gray-800">
+		<blockquote className="text-md pt-2 italic text-gray-800">
 			<svg
 				aria-hidden="true"
 				className="w-5 pt-2 h-5 text-gray-800"

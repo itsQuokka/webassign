@@ -36,7 +36,7 @@ const moonPage = () => {
 						accepted explanation for the existence of the Moon is that it was
 						created when a rock the size of Mars ran into the Earth. A full moon
 						occurs when the Moon is on the opposite side of the Earth from the
-						Sun and the Sun illuminates the it's face fully. Usually lunar
+						Sun and the Sun illuminates the it&apos;s face fully. Usually lunar
 						craters are either named for deceased scientists, scholars, explores
 						and artists OR for deceased astronauts/cosmonauts.
 					</p>

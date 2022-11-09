@@ -35,10 +35,10 @@ const solarSystemPage = () => {
 						planets relative to the Sun is the sentence:
 					</p>
 
-					<h2 class="pt-4 mb-2 text-lg font-semibold">
+					<h2 className="pt-4 mb-2 text-lg font-semibold">
 						My Very Educated Mother Just Served Us Nachos!
 					</h2>
-					<ul class="space-y-1 max-w-md list-disc list-inside">
+					<ul className="space-y-1 max-w-md list-disc list-inside">
 						<li className="text-[#484888]">
 							<Link href="/solarsystem#mercury">Mercury</Link>
 						</li>
@@ -107,15 +107,15 @@ const solarSystemPage = () => {
 						Earth
 					</h4>
 					<p className="pt-2">
-						The name "Earth" is at least 1000 years old, all the planets except
-						Earth were named after Greek and Roman gods and goddesses. Earth is
-						the only planet with liquid water on the surface. If the Sun was as
-						tall as a typical front door, then, relative to the Sun, Earth would
-						be the size of a nickel. Earth's atmosphere protects it from
-						incoming meteorites because most of them break apart before they can
-						strike the surface. The first Earth Day started in 1970 on April 22
-						with hopes of increasing awareness about the importance of
-						protecting our planet.
+						The name &quot;Earth&quot; is at least 1000 years old, all the
+						planets except Earth were named after Greek and Roman gods and
+						goddesses. Earth is the only planet with liquid water on the
+						surface. If the Sun was as tall as a typical front door, then,
+						relative to the Sun, Earth would be the size of a nickel.
+						Earth&apos;s atmosphere protects it from incoming meteorites because
+						most of them break apart before they can strike the surface. The
+						first Earth Day started in 1970 on April 22 with hopes of increasing
+						awareness about the importance of protecting our planet.
 					</p>
 					<Link href="/solarsystem">
 						<p className="pt-2 text-sm underline cursor-pointer">Back to Top</p>
@@ -130,11 +130,11 @@ const solarSystemPage = () => {
 					<p className="pt-2">
 						Also known as the Red Planet, Mars is smaller than Earth. One day on
 						Mars is almost exactly the same length as a day on Earth. The
-						atmosphere on Mars is very thin, meaning it can't trap the Sun's
-						heat very well, so it is very cold. The gravity is very weak, on
-						Mars you can jump 3X higher than you can on Earth. Mars is tilted at
-						a 25 degree angle so it has seasons similar to Earth when different
-						parts of the planet are closer to the Sun.
+						atmosphere on Mars is very thin, meaning it can&apos;t trap the
+						Sun&apos;s heat very well, so it is very cold. The gravity is very
+						weak, on Mars you can jump 3X higher than you can on Earth. Mars is
+						tilted at a 25 degree angle so it has seasons similar to Earth when
+						different parts of the planet are closer to the Sun.
 					</p>
 					<Link href="/solarsystem">
 						<p className="pt-2 text-sm underline cursor-pointer">Back to Top</p>
@@ -188,11 +188,11 @@ const solarSystemPage = () => {
 					<p className="pt-2">
 						Uranus is the coldest planet in our solar system. It was the first
 						planet discovered in the modern age. It was first recorded in 1690
-						but it wasn't till 1781 that astronomers realized it was a planet.
-						It is named after the Greek god of the sky, Ouranos. Uranus is
-						tilted must more than the other planets, the other planets are like
-						spinning tops but Uranus is more like a rolling ball as it orbits
-						the Sun.
+						but it wasn&apos;t till 1781 that astronomers realized it was a
+						planet. It is named after the Greek god of the sky, Ouranos. Uranus
+						is tilted must more than the other planets, the other planets are
+						like spinning tops but Uranus is more like a rolling ball as it
+						orbits the Sun.
 					</p>
 					<Link href="/solarsystem">
 						<p className="pt-2 text-sm underline cursor-pointer">Back to Top</p>
@@ -207,11 +207,11 @@ const solarSystemPage = () => {
 					<p className="pt-2">
 						The farthest planet from the Sun is Neptune. It was discovered in
 						1846. When the dwarf planet of Pluto was discovered in 1930, it was
-						thought that Pluto was the farthest planet from the Sun but Pluto's
-						orbit is very elliptical so there are periods where Pluto is
-						actually close to the Sun than Neptune. Neptune's surface gravity is
-						very similar to Earth. It has the strongest winds in the solar
-						system, reaching up to 2,100 km/hour.
+						thought that Pluto was the farthest planet from the Sun but
+						Pluto&apos;s orbit is very elliptical so there are periods where
+						Pluto is actually close to the Sun than Neptune. Neptune&apos;s
+						surface gravity is very similar to Earth. It has the strongest winds
+						in the solar system, reaching up to 2,100 km/hour.
 					</p>
 					<Link href="/solarsystem">
 						<p className="pt-2 text-sm underline cursor-pointer">Back to Top</p>

@@ -24,12 +24,12 @@ const iotd = () => {
 					<h2>Image of the Day</h2>
 
 					<p className="pt-2">
-						Nasa posts an "Image of the Day" page every day. Here are 3 of my
-						favourite images:
+						Nasa posts an &quot;Image of the Day&quot; page every day. Here are
+						3 of my favourite images:
 					</p>
 
-					<div class="container mx-auto space-y-2 lg:space-y-0 lg:gap-6 lg:grid lg:grid-cols-3 pt-8">
-						<div class="w-full rounded hover:-translate-y-1 hover:cursor-pointer">
+					<div className="container mx-auto space-y-2 lg:space-y-0 lg:gap-6 lg:grid lg:grid-cols-3 pt-8">
+						<div className="w-full rounded hover:-translate-y-1 hover:cursor-pointer">
 							<Link
 								href="https://www.nasa.gov/image-feature/ixpe-measures-exploded-star-remains"
 								alt="/"
@@ -47,7 +47,7 @@ const iotd = () => {
 								author="NASA"
 							/>
 						</div>
-						<div class="w-full rounded hover:-translate-y-1 hover:cursor-pointer">
+						<div className="w-full rounded hover:-translate-y-1 hover:cursor-pointer">
 							<Link
 								href="https://www.nasa.gov/image-feature/curiositys-dusty-selfie/"
 								alt="/"
@@ -65,7 +65,7 @@ const iotd = () => {
 								author="NASA"
 							/>
 						</div>
-						<div class="w-full rounded hover:-translate-y-1 hover:cursor-pointer">
+						<div className="w-full rounded hover:-translate-y-1 hover:cursor-pointer">
 							<Link
 								href="https://www.nasa.gov/image-feature/goddard/2022/hubble-peers-at-mysterious-cosmic-keyhole"
 								alt="/"

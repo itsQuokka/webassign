@@ -25,8 +25,8 @@ const Main = () => {
 							Moon in 1969. The first private commercial space mission happened
 							in 2012 when SpaceX send an unmanned capsule with supplies to the
 							International Space Station. Just last year, in 2021, the original
-							captain of Star Trek's Enterprise, William Shatner, became the
-							oldest person in space at the age of 90 years old. In 2013,
+							captain of Star Trek&apos;s Enterprise, William Shatner, became
+							the oldest person in space at the age of 90 years old. In 2013,
 							Canadian Chris Hadfield created the first music video in space.
 						</p>
 						<p className="py-2 text-gray-800">
@@ -34,10 +34,10 @@ const Main = () => {
 							first to go to space in 1984. In 2013, Canadian Col. Chris
 							Hadfield joined the crew of the International Space Station. He
 							became famous during his mission to space by documenting the daily
-							life of an astronaut (such as "how astronauts sleep") using social
-							media and by sharing breathtaking photographs on his Twitter
-							account. He also charmed his fans with his rendition of David
-							Bowie's "Space Oddity".
+							life of an astronaut (such as &quot;how astronauts sleep&quot;)
+							using social media and by sharing breathtaking photographs on his
+							Twitter account. He also charmed his fans with his rendition of
+							David Bowie&apos;s &quot;Space Oddity&quot;.
 						</p>
 					</div>
 					<div className="flex mt-10 pr-10 pl-4 p-0.5 mx[-180px] h-10">
