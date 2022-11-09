@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import moonBanner from "../public/assets/Moon-Banner.jpg";
-import moonGif from "../public/assets/XcFc.gif";
+import moonGif from "../public/assets/XcFC.gif";
 import Link from "next/link";
 
 const moonPage = () => {
