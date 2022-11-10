@@ -9,7 +9,7 @@ const Quotes = () => {
 			id="quotes"
 			className="w-full md:h-screen p-2 flex items-center"
 		>
-			<div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-8 pt-[10px]">
+			<div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-8 pt-[320px]">
 				<div className="col-span-1">
 					<div></div>
 					<p className="uppercase text-xl tracking-widest text-gray-400 mt-[80px] font-bold">
@@ -70,12 +70,12 @@ const Quotes = () => {
 						<div className="w-[310px] bg-[#484888] shadow-lg"></div>
 					</div>
 				</div>
-				<div className="col-span-1 flex pl-6 drop-shadow-md scale-[75%]">
+				<div className="col-span-1 flex pl-6 drop-shadow-md scale-[65%]">
 					<Image
 						className="rounded-xl "
 						src="/assets/astro.png"
-						width="750px"
-						height="500px"
+						width="850px"
+						height="450px"
 						alt="/"
 					/>
 				</div>

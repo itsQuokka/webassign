@@ -6,10 +6,10 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>Aidan | Front-End Developer</title>
+				<title>Space Place | Aidan Douglas</title>
 				<meta
 					name="description"
-					content="Portfolio Project"
+					content="Space Web Assignment"
 				/>
 				<link
 					rel="icon"

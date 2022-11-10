@@ -34,6 +34,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/iotd.js"
+    ],
+    "/moon": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/moon.js"
+    ],
+    "/references": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/references.js"
+    ],
+    "/solarsystem": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/solarsystem.js"
     ]
   },
   "ampFirstPages": []

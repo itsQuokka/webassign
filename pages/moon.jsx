@@ -44,12 +44,11 @@ const moonPage = () => {
 						<p className="pt-4 underline cursor-pointer">Back</p>
 					</Link>
 				</div>
-				<Image
-					className="absolute z-1"
-					layout="fixed"
-					objectFit="cover"
-					src={moonGif}
+				<img
+					className="mt-12 ml-12 scale-[150%]"
+					src="/assets/XcFC.gif"
 					alt="/"
+					repeat="true"
 				/>
 			</div>
 		</div>

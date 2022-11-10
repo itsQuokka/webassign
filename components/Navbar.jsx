@@ -6,9 +6,9 @@ import { useRouter } from "next/router";
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
-	const [navBg, setNavBg] = useState("transparent");
 	const [linkColor, setLinkColor] = useState("#ffffff");
 	const router = useRouter();
+	const [navBg, setNavBg] = useState("transparent");
 
 	const handleNav = () => {
 		setNav(!nav);
@@ -16,7 +16,7 @@ const Navbar = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY <= 90) {
+			if (window.scrollY <= 30) {
 				setNavBg("#ffffff");
 				setLinkColor("#484888");
 			} else {
@@ -64,6 +64,11 @@ const Navbar = () => {
 						<Link href="/iotd">
 							<li className="ml-10 text-sm uppercase hover:text-[#484888] hover:-translate-y-0.5">
 								{"Image of the Day"}
+							</li>
+						</Link>
+						<Link href="/references">
+							<li className="ml-10 text-sm uppercase hover:text-[#484888] hover:-translate-y-0.5">
+								{"References"}
 							</li>
 						</Link>
 					</ul>
