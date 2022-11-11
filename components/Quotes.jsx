@@ -11,7 +11,6 @@ const Quotes = () => {
 		>
 			<div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-8">
 				<div className="col-span-1">
-					<div></div>
 					<p className="uppercase text-xl tracking-widest text-gray-400 font-bold">
 						Cool
 					</p>
