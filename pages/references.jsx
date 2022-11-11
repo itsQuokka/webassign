@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import propertyImg from "../public/assets/banner_iotd.jpg";
+import propertyImg from "../public/assets/night-sky.jpg";
 import Link from "next/link";
 
 const references = () => {
@@ -58,6 +58,20 @@ const references = () => {
 						https://www.nasa.gov/image-feature/goddard/2022/hubble-peers-at-mysterious-cosmic-keyhole/
 					</p>
 
+					<h4 className="pt-4">Space Galaxy Background for Banner</h4>
+					<p>
+						https://www.freepik.com/free-vector/space-banner-with-purple-planet-landscape_13778479.htm
+					</p>
+
+					<h4 className="pt-4">Astronaut in Banner</h4>
+					<p>
+						https://www.freepik.com/free-vector/cute-astronaut-dance-cartoon-vector-icon-illustration-technology-science-icon-concept-isolated-premium-vector-flat-cartoon-style_20057099.htm#query=astronaut&position=7&from_view=keyword
+					</p>
+
+					<h4 className="pt-4">Space Rover in Banner</h4>
+					<p>
+						https://www.freepik.com/free-vector/mars-colonization-composition-with-image-wheeled-rover-with-manipulator-antenna-solar-battery-vector-illustration_23547861.htm#query=space%20rover&position=0&from_view=search&track=sph
+					</p>
 					<Link href="/#main">
 						<p className="pt-4 underline cursor-pointer">Back</p>
 					</Link>

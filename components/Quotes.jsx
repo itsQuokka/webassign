@@ -7,12 +7,12 @@ const Quotes = () => {
 	return (
 		<div
 			id="quotes"
-			className="w-full md:h-screen p-2 flex items-center"
+			className="w-full md:h-screen p-2 mt-[20px] flex items-center"
 		>
-			<div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-8 pt-[320px]">
+			<div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-8">
 				<div className="col-span-1">
 					<div></div>
-					<p className="uppercase text-xl tracking-widest text-gray-400 mt-[80px] font-bold">
+					<p className="uppercase text-xl tracking-widest text-gray-400 font-bold">
 						Cool
 					</p>
 					<h2 className="py-2 text-[#484888]">Some Quotes About Space</h2>
@@ -70,12 +70,12 @@ const Quotes = () => {
 						<div className="w-[310px] bg-[#484888] shadow-lg"></div>
 					</div>
 				</div>
-				<div className="col-span-1 flex pl-6 drop-shadow-md scale-[65%]">
+				<div className="col-span-1 flex pl-6 drop-shadow-md scale-[70%]">
 					<Image
-						className="rounded-xl "
-						src="/assets/astro.png"
-						width="850px"
-						height="450px"
+						className="rounded-xl scale-x-[105%] scale-y-[95%]"
+						src="/assets/astro_png.png"
+						width="900px"
+						height="900px"
 						alt="/"
 					/>
 				</div>

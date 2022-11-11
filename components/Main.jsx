@@ -1,25 +1,28 @@
 import React from "react";
 import Image from "next/image";
+import propertyImg from "../public/assets/banner_main.png";
 
 const Main = () => {
 	return (
 		<div>
+			<div className="w-screen h-[30vh] lg:h-[60vh] relative">
+				<div className="absolute top-0 left-0 w-full h-[60vh] lg:h-[60vh] z-10" />
+				<Image
+					className="absolute z-1"
+					layout="fill"
+					objectFit="cover"
+					src={propertyImg}
+					alt="/"
+				/>
+			</div>
 			<div
 				id="main"
 				className="w-full md:h-screen p-2 flex items-center"
 			>
 				<div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-2 pt-[20px]">
-					<div className="col-span-2 mt-20 px-20">
-						<Image
-							className="rounded-xl bg-[#484888]"
-							src="/assets/banner_img.png"
-							width="1000px"
-							height="480px"
-							alt="/"
-						/>
-					</div>
+					<div className="col-span-2 mt-20 px-20"></div>
 					<div className="col-span-1">
-						<p className="uppercase text-xl tracking-widest text-gray-400 mt-[80px] font-bold">
+						<p className="uppercase text-xl tracking-widest text-gray-400 font-bold">
 							Space
 						</p>
 						<h2 className="py-2 text-[#484888]">The Final Frontier</h2>

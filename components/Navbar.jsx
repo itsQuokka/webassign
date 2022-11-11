@@ -16,11 +16,10 @@ const Navbar = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY <= 30) {
-				setNavBg("#ffffff");
-				setLinkColor("#484888");
-			} else {
+			if (window.scrollY <= 20) {
 				setNavBg("transparent");
+				setLinkColor("#ffffff");
+			} else {
 				setLinkColor("transparent");
 			}
 		};
