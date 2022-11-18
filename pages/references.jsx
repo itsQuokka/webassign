@@ -2,10 +2,18 @@ import Image from "next/image";
 import React from "react";
 import propertyImg from "../public/assets/night-sky.jpg";
 import Link from "next/link";
+import Head from "next/head";
 
 const references = () => {
 	return (
 		<div className="w-full">
+			<Head>
+				<title>References | Space Assign</title>
+				<meta
+					name="viewport"
+					content="initial-scale=1.0, width=device-width"
+				/>
+			</Head>
 			<div className="w-screen h-[30vh] lg:h-[40vh] relative">
 				<div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/40 z-10" />
 				<Image
@@ -72,8 +80,8 @@ const references = () => {
 					<p>
 						https://www.freepik.com/free-vector/mars-colonization-composition-with-image-wheeled-rover-with-manipulator-antenna-solar-battery-vector-illustration_23547861.htm#query=space%20rover&position=0&from_view=search&track=sph
 					</p>
-					<Link href="/#main">
-						<p className="pt-4 underline cursor-pointer">Back</p>
+					<Link href="/references">
+						<p className="pt-4 underline cursor-pointer">Back to Top</p>
 					</Link>
 				</div>
 			</div>

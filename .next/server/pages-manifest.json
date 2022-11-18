@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/references": "pages/references.js",
-  "/iotd": "pages/iotd.js"
+  "/solarsystem": "pages/solarsystem.js",
+  "/iotd": "pages/iotd.js",
+  "/references": "pages/references.js"
 }

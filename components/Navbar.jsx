@@ -46,27 +46,27 @@ const Navbar = () => {
 						className="hidden md:flex"
 					>
 						<Link href="/">
-							<li className="ml-10 text-sm uppercase hover:text-[#484888] hover:-translate-y-0.5">
+							<li className="ml-10 text-sm uppercase hover:text-[#c0c0f4] hover:-translate-y-0.5">
 								{"Home"}
 							</li>
 						</Link>
 						<Link href="/moon">
-							<li className="ml-10 text-sm uppercase hover:text-[#484888] hover:-translate-y-0.5">
+							<li className="ml-10 text-sm uppercase hover:text-[#c0c0f4] hover:-translate-y-0.5">
 								{"Moon"}
 							</li>
 						</Link>
 						<Link href="/solarsystem">
-							<li className="ml-10 text-sm uppercase hover:text-[#484888] hover:-translate-y-0.5">
+							<li className="ml-10 text-sm uppercase hover:text-[#c0c0f4] hover:-translate-y-0.5">
 								{"Solar System"}
 							</li>
 						</Link>
 						<Link href="/iotd">
-							<li className="ml-10 text-sm uppercase hover:text-[#484888] hover:-translate-y-0.5">
+							<li className="ml-10 text-sm uppercase hover:text-[#c0c0f4] hover:-translate-y-0.5">
 								{"Image of the Day"}
 							</li>
 						</Link>
 						<Link href="/references">
-							<li className="ml-10 text-sm uppercase hover:text-[#484888] hover:-translate-y-0.5">
+							<li className="ml-10 text-sm uppercase hover:text-[#c0c0f4] hover:-translate-y-0.5">
 								{"References"}
 							</li>
 						</Link>

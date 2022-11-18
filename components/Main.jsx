@@ -12,7 +12,7 @@ const Main = () => {
 					layout="fill"
 					objectFit="cover"
 					src={propertyImg}
-					alt="/"
+					alt="Banner"
 				/>
 			</div>
 			<div

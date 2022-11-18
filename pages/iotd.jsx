@@ -3,10 +3,18 @@ import React from "react";
 import propertyImg from "../public/assets/banner_iotd.jpg";
 import Link from "next/link";
 import QuoteItem from "../components/QuoteItem";
+import Head from "next/head";
 
 const iotd = () => {
 	return (
 		<div className="w-full">
+			<Head>
+				<title>IOTD | Space Assign</title>
+				<meta
+					name="viewport"
+					content="initial-scale=1.0, width=device-width"
+				/>
+			</Head>
 			<div className="w-screen h-[30vh] lg:h-[40vh] relative">
 				<div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/40 z-10" />
 				<Image
@@ -24,15 +32,20 @@ const iotd = () => {
 					<h2>Image of the Day</h2>
 
 					<p className="pt-2">
-						Nasa posts an &quot;Image of the Day&quot; page every day. Here are
-						3 of my favourite images:
+						Nasa posts an &quot;
+						<span className="hover:text-[#484888]">
+							<Link href="https://www.nasa.gov/multimedia/imagegallery/iotd.html">
+								Image of the Day
+							</Link>
+						</span>
+						&quot; page every day. Here are 3 of my favourite images:
 					</p>
 
 					<div className="container mx-auto space-y-2 lg:space-y-0 lg:gap-6 lg:grid lg:grid-cols-3 pt-8">
 						<div className="w-full rounded hover:-translate-y-1 hover:cursor-pointer">
 							<Link
 								href="https://www.nasa.gov/image-feature/ixpe-measures-exploded-star-remains"
-								alt="/"
+								alt="Exploded Star Remains"
 							>
 								<Image
 									className="rounded-xl"

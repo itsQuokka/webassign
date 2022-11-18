@@ -3,10 +3,18 @@ import React from "react";
 import moonBanner from "../public/assets/Moon-Banner.jpg";
 import moonGif from "../public/assets/XcFC.gif";
 import Link from "next/link";
+import Head from "next/head";
 
 const moonPage = () => {
 	return (
 		<div className="w-full">
+			<Head>
+				<title>Moon | Space Assign</title>
+				<meta
+					name="viewport"
+					content="initial-scale=1.0, width=device-width"
+				/>
+			</Head>
 			<div className="w-screen h-[30vh] lg:h-[40vh] relative">
 				<div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/40 z-10" />
 				<Image
